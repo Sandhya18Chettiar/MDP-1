@@ -139,7 +139,7 @@ img {
   text-align: center; }
   .section-heading h3 {
     font-size: 30px;
-    color: #f13970;
+    color: #f81504;
     margin-bottom: 0; }
   .section-heading.text-left {
     text-align: left !important; }
@@ -189,7 +189,7 @@ img {
   padding-right: 0;
   width: 30px;
   height: 30px;
-  background-color: #f13970;
+  background-color: #f81504;
   line-height: 30px;
   text-align: center;
   position: absolute;
@@ -232,7 +232,7 @@ textarea:focus {
 
 /* ScrollUp */
 #scrollUp {
-  background-color: #f13970;
+  background-color: #f81504;
   border-radius: 0;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -259,7 +259,7 @@ textarea:focus {
   height: 60px;
   color: #ffffff;
   border: none;
-  border-left: 3px solid #f13970;
+  border-left: 3px solid #f81504;
   border-radius: 0;
   padding: 0 30px;
   font-size: 16px;
@@ -268,30 +268,30 @@ textarea:focus {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   text-transform: capitalize;
-  background-color: #f13970; }
+  background-color: #f81504; }
   .button.active, .button:hover, .button:focus {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
-    background-color: #f13970;
-    border-color: #f13970; }
+    background-color: #f81504;
+    border-color: #f81504; }
   .button.btn-2 {
-    background-color: #f13970;
-    border-color: #f13970; }
+    background-color: #f81504;
+    border-color: #f81504; }
     .button.btn-2.active, .button.btn-2:hover, .button.btn-2:focus {
-      background-color: #f13970;
-      border-color: #f13970; }
+      background-color: #f81504;
+      border-color: #f81504; }
   .button.btn-3 {
     background-color: #474747;
-    border-color: #f13970; }
+    border-color: #f81504; }
     .button.btn-3.active, .button.btn-3:hover, .button.btn-3:focus {
-      background-color: #f13970;
-      border-color: #f13970; }
+      background-color: #f81504;
+      border-color: #f81504; }
   .button.btn-4 {
     background-color: transparent;
-    border: 3px solid #f13970;
+    border: 3px solid #f81504;
     line-height: 53px;
-    color: #f13970; }
+    color: #f81504; }
     @media only screen and (max-width: 767px) {
       .button.btn-4 {
         height: 40px;
@@ -299,7 +299,7 @@ textarea:focus {
     .button.btn-4.active, .button.btn-4:hover, .button.btn-4:focus {
       line-height: 53px;
       color: #ffffff;
-      background-color: #f13970; }
+      background-color: #f81504; }
       @media only screen and (max-width: 767px) {
         .button.btn-4.active, .button.btn-4:hover, .button.btn-4:focus {
           height: 40px;
@@ -337,7 +337,7 @@ textarea:focus {
       position: relative;
       z-index: 1;
       padding: 60px 50px;
-      border-left: 3px solid #f13970;
+      border-left: 3px solid #f81504;
       background-color: rgba(24, 24, 24, 0.54); }
       @media only screen and (max-width: 767px) {
         .hero-slides .single-hero-slide .hero-slides-content {
@@ -373,7 +373,7 @@ textarea:focus {
     visibility: hidden;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    border-bottom: 3px solid #f13970; }
+    border-bottom: 3px solid #f81504; }
     @media only screen and (max-width: 767px) {
       .hero-slides .owl-prev,
       .hero-slides .owl-next {
@@ -399,7 +399,7 @@ textarea:focus {
       color: #ffffff;
       margin-right: 10px; }
       .hero-slides .owl-dots .owl-dot.active {
-        color: #f13970; }
+        color: #f81504; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breakpoint-on .classynav ul li.cn-dropdown-item > a::after,
@@ -420,7 +420,7 @@ textarea:focus {
   position: relative;
   z-index: 1; }
   .single-best-receipe-area img {
-    border-bottom: 3px solid #f13970; }
+    border-bottom: 3px solid #f81504; }
   .single-best-receipe-area .receipe-content {
     padding-top: 30px;
     text-align: center; }
@@ -431,7 +431,7 @@ textarea:focus {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms; }
       .single-best-receipe-area .receipe-content h5:hover, .single-best-receipe-area .receipe-content h5:focus {
-        color: #f13970; }
+        color: #f81504; }
     .single-best-receipe-area .receipe-content .ratings i {
       font-size: 11px;
       color: #fbb710;
@@ -487,7 +487,7 @@ textarea:focus {
   .single-small-receipe-area .receipe-content span {
     font-size: 12px;
     display: block;
-    color: #f13970; }
+    color: #f81504; }
   .single-small-receipe-area .receipe-content a {
     display: block; }
     .single-small-receipe-area .receipe-content a h5 {
@@ -500,7 +500,7 @@ textarea:focus {
         .single-small-receipe-area .receipe-content a h5 {
           font-size: 16px; } }
       .single-small-receipe-area .receipe-content a h5:hover, .single-small-receipe-area .receipe-content a h5:focus {
-        color: #f13970; }
+        color: #f81504; }
   .single-small-receipe-area .receipe-content .ratings i {
     font-size: 11px;
     color: #fbb710;
@@ -535,7 +535,7 @@ textarea:focus {
       .footer-area .footer-social-info a:last-child {
         margin-right: 0; }
       .footer-area .footer-social-info a:hover, .footer-area .footer-social-info a:focus {
-        color: #f13970; }
+        color: #f81504; }
   .footer-area p {
     color: #4b4b4b;
     font-weight: 600;
@@ -548,7 +548,7 @@ textarea:focus {
       color: #4b4b4b;
       font-weight: 600; }
       .footer-area p a:hover, .footer-area p a:focus {
-        color: #f13970; }
+        color: #f81504; }
   @media only screen and (max-width: 767px) {
     .footer-area .footer-logo {
       max-width: 90px; } }
