@@ -1,0 +1,94 @@
+#home {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    position: relative;
+    min-height: 100vh;
+  }
+
+  #home .content h1 {
+    font-size: 5rem;
+    font-family: 'lemonada',sans-serif;
+    font-weight: bolder;
+    text-shadow: .1rem .1rem .3rem #333;
+    color: #FFF200;
+  }
+  
+  #home .content h2 {
+    font-size: 3.5rem;
+    font-family: 'lemonada',sans-serif;
+    font-weight: bolder;
+    text-shadow: .1rem .1rem .3rem #333;
+    color: #fff;
+    margin: 1rem 0;
+  }
+  
+  #home .content p {
+    font-size: 1.6rem;
+    color: #ccc;
+  }
+
+  #home .content button {
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 4rem;
+    width: 14rem;
+    background: #fff;
+  }
+
+  #home .content button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF200;
+    height: 100%;
+    width: 0%;
+    transition: .7s;
+    z-index: -1;
+  }
+
+  #home .content button:hover::before {
+    width: 100%;
+  }
+
+   #home .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  #home .video-container .vid {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: none;
+  } 
+
+  #home .video-container .vid1 {
+    display: block;
+  }
+
+  #home .fa-angle-double-down {
+    position: absolute;
+    padding-top: 5%;
+    padding-left: 20%;
+    font-size: 4rem;
+    z-index: 10000;
+    color: #FFF200;
+    cursor: pointer;
+    
+  }
+ 
