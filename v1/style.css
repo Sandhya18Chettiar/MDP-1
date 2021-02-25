@@ -134,7 +134,6 @@ img {
 /* Section Heading */
 .section-heading {
   position: relative;
-  z-index: 1;
   margin-bottom: 80px;
   text-align: center; }
   .section-heading h3 {
@@ -163,7 +162,7 @@ img {
 
 .bg-overlay {
   position: relative;
-  z-index: 2;
+  z-index: 1;
   background-position: center center;
   background-size: cover; }
   .bg-overlay::after {
@@ -266,30 +265,26 @@ textarea:focus {
 /* Slides */
 .hero-area {
   position: relative;
-  z-index: 1;
   margin-left: 0;
   margin-right: 0; }
 
 .hero-slides {
-  position: relative;
-  z-index: 1; }
+  position: relative;}
   .hero-slides .single-hero-slide {
     width: 100%;
     height: 820px;
-    position: relative;
-    z-index: 1; }
+    position: relative;}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .hero-slides .single-hero-slide {
         height: 650px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .hero-slides .single-hero-slide {
-        height: 650px; } }
+        height: 550px; } }
     @media only screen and (max-width: 767px) {
       .hero-slides .single-hero-slide {
-        height: 650px; } }
+        height: 450px; } }
     .hero-slides .single-hero-slide .hero-slides-content {
       position: relative;
-      z-index: 1;
       padding: 60px 50px;
       border-left: 3px solid #f81504;
       background-color: rgba(24, 24, 24, 0.54); }
@@ -319,7 +314,6 @@ textarea:focus {
     margin-top: -20px;
     left: 4%;
     position: absolute;
-    z-index: 10;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
@@ -344,7 +338,6 @@ textarea:focus {
     display: flex;
     position: absolute;
     bottom: 50px;
-    z-index: 10;
     width: 80%;
     left: 17%; }
     .hero-slides .owl-dots .owl-dot {
@@ -358,12 +351,10 @@ textarea:focus {
 /* Browse Top Categories */
 .best-receipe-area {
   position: relative;
-  z-index: 1;
   padding-bottom: 50px; }
 
 .single-best-receipe-area {
-  position: relative;
-  z-index: 1; }
+  position: relative;}
   .single-best-receipe-area img {
     border-bottom: 3px solid #f81504; }
   .single-best-receipe-area .receipe-content {
@@ -414,12 +405,10 @@ textarea:focus {
 /* Most Viewed */
 .small-receipe-area {
   position: relative;
-  z-index: 1;
   padding-bottom: 30px; }
 
 .single-small-receipe-area {
   position: relative;
-  z-index: 1;
   margin-bottom: 50px; }
   .single-small-receipe-area .receipe-thumb {
     -webkit-box-flex: 0;
@@ -460,7 +449,6 @@ textarea:focus {
 /* Footer */
 .footer-area {
   position: relative;
-  z-index: 1;
   width: 100%;
   height: 140px;
   background-color: #ffffff; }
