@@ -3,9 +3,6 @@
 @import url(css/owl.carousel.min.css);
 @import url(css/font-awesome.min.css);
 
-* {
-  margin: 0;
-  padding: 0; }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -200,10 +197,6 @@ textarea:focus {
   transition-duration: 500ms; }
   #scrollUp:hover {
     background-color: #141414; }
-  @media only screen and (max-width: 767px) {
-    #scrollUp {
-      bottom: 30px;
-      right: 30px; } }
 
 /* Buttons */
 .button {
@@ -283,23 +276,23 @@ textarea:focus {
     @media only screen and (max-width: 767px) {
       .hero-slides .single-hero-slide {
         height: 450px; } }
-    .hero-slides .single-hero-slide .hero-slides-content {
+    .hero-slides .single-hero-slide {
       position: relative;
       padding: 60px 50px;
       border-left: 3px solid #f81504;
       background-color: rgba(24, 24, 24, 0.54); }
       @media only screen and (max-width: 767px) {
-        .hero-slides .single-hero-slide .hero-slides-content {
+        .hero-slides .single-hero-slide {
           padding: 30px 20px; } }
-      .hero-slides .single-hero-slide .hero-slides-content h2 {
+      .hero-slides .single-hero-slide h2 {
         font-size: 30px;
         color: #ffffff;
         margin-bottom: 30px;
         font-weight: 600; }
         @media only screen and (max-width: 767px) {
-          .hero-slides .single-hero-slide .hero-slides-content h2 {
+          .hero-slides .single-hero-slide h2 {
             font-size: 24px; } }
-      .hero-slides .single-hero-slide .hero-slides-content p {
+      .hero-slides .single-hero-slide p {
         font-size: 16px;
         margin-bottom: 50px;
         color: #ffffff; }
@@ -368,6 +361,10 @@ textarea:focus {
       transition-duration: 500ms; }
       .single-best-receipe-area .receipe-content h5:hover, .single-best-receipe-area .receipe-content h5:focus {
         color: #f81504; }
+    .receipe-content h6 {
+      color: #474747;
+      font-weight: 400;
+    }
     .single-best-receipe-area .receipe-content .ratings i {
       font-size: 11px;
       color: #fbb710;
