@@ -280,10 +280,10 @@ textarea:focus {
  .notification .badge2 {
   position: absolute;
   top: -10px;
-  right: -10px;
+  right: -12px;
   padding: 20px 10px;
   border-radius: 50%;
-  background: rgb(17, 156, 4);
+  background: rgb(20, 136, 9);
   color: white;
 }
 
