@@ -151,6 +151,11 @@ img {
       bottom: 30px;
       right: 30px; } }
 
+.vl {
+  border-left: 6px solid green;
+  height: 560px;
+}
+
 /* Button */
 .delicious-btn {
   display: inline-block;
