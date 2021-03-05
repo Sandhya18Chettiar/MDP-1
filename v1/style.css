@@ -255,6 +255,20 @@ textarea:focus {
       height: 40px;
       line-height: 39px; } }
 
+/* Container for text over image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* Notification */
 .notification {
@@ -395,6 +409,32 @@ textarea:focus {
 
 .single-best-receipe-area {
   position: relative;}
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fe3939;
+  }
+
+  .single-best-receipe-area:hover .overlay {
+    opacity: 1;}
+
+  .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;}
   .single-best-receipe-area img {
     border-bottom: 3px solid #f81504; }
   .single-best-receipe-area .receipe-content {
