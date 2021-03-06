@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hogging Diaries</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Left NavBar -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="left-nav-bar.css">
+
+    <!-- Top Header -->
+    <link rel="stylesheet" href="TopHeader.css">
+
+    <!-- Footer -->
+    <link rel="stylesheet" href="footer.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+    <!-- ##### Header Area Start ##### -->
+    
+  <div class="wrapper"> 
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+          
+      <img class="logo" src="img/bg-img/HoggingDiaries-resizeimage.jpg">
+        <ul class="links">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li>
+            <a href="#" class="desktop-link">Categories</a>
+            <input type="checkbox" id="show-Categories">
+            <label for="show-Categories">Categories</label>
+            <ul>
+              <li><a href="#">North Indian</a></li>
+              <li><a href="#">South Indian</a></li>
+              <li><a href="#">Non-Veg</a></li>
+              <li><a href="#">Healthy Snacks</a></li>
+              <li><a href="#">Desserts/Shakes</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Receipies</a>
+            <input type="checkbox" id="show-Receipies">
+            <label for="show-Receipies">Receipies</label>
+            <ul>
+              <li><a href="#">Top Rated</a></li>
+              
+              <li>
+                <a href="#" class="desktop-link">Experience Level</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">Experience Level</label>
+                <ul>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#">Easy Receipies</a></li>
+                  <li><a href="#">Moderate Receipies</a></li>
+                  <li><a href="#">Expert Receipies</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Seasonal Food</a>
+            <input type="checkbox" id="show-Categories">
+            <label for="show-Categories">Seasonal Food</label>
+            <ul>
+              <li><a href="#">All Year Round</a></li>
+              <li><a href="#">Summer</a></li>
+              <li><a href="#">Monsoon</a></li>
+              <li><a href="#">Winter</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+
+    <!-- Left NavBar Start --> 
+
+    <input type="checkbox" id="menu">
+    <label for="menu" class="icon">
+        <div class="menu"></div>
+    </label>
+
+    <nav class="left-navbar">
+        <ul>
+            <li>
+                <form action="#" method="post"></form>
+                <a href="sass.html"><i class="material-icons">search</i>
+                
+                    <input type="search" name="search" placeholder="Search"> 
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form> 
+                </a>
+            </li>
+            <li>
+                <i class="material-icons">restaurant</i>North Indian
+            </li>
+            <li>
+                <i class="material-icons">restaurant_menu</i>South Indian
+                
+            </li>
+            <li>
+                <i class="material-icons">restaurant</i>Non-Veg
+            </li>
+            <li>
+                <i class="material-icons">restaurant_menu</i>Desserts/Shakes
+                
+            </li>
+            <li>
+                <i class="material-icons">room_service</i>Healthy Snacks
+            </li>
+            <li>
+                <i class="material-icons">thumb_up</i>Best-Rated
+            </li>
+        </ul>
+    </nav>
+    
+<!-- Left NavBar End -->
+</header>
+<!-- ##### Header Area End ##### -->
+
+
+    <!-- Slides -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/slide1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="hero-slides-content">
+                                <h2>Pizza with Fresh Tomatoes and Basil</h2>
+                                <p>Home baked pizza with Roma tomatoes grated in Parmesan cheese, garnished with fresh Basil leaves.</p>
+                                <a href="#" class="btn button">See Receipe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/slide2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="hero-slides-content" >
+                                <h2>Roasted Chicken Tikka</h2>
+                                <p>Oven roasted Chicken Tikka with tomatoes and capsicum, garnished with fresh Basil leaves.</p>
+                                <a href="#" class="btn button">See Receipe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/slide3.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="hero-slides-content">
+                                <h2>Dosa Platter</h2>
+                                <p>Masala Dosa with Sambar and Coconut Chutney.</p>
+                                <a href="#" class="btn button">See Receipe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slides End -->
+
+    <!-- Browse Top Categories -->
+    <section class="best-receipe-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h3>&nbsp;</h3>
+                        <h3>Browse Our Top Categories</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-best-receipe-area mb-30">
+                        <img src="img/bg-img/r1.jpg" alt="">
+                        <div class="receipe-content">
+                            <a href="receipe-post.html">
+                                <h5>North Indian</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-best-receipe-area mb-30">
+                        <img src="img/bg-img/r2.jpg" alt="">
+                        <div class="receipe-content">
+                            <a href="receipe-post.html">
+                                <h5>Snacks</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-best-receipe-area mb-30">
+                        <img src="img/bg-img/r3.jpg" alt="">
+                        <div class="receipe-content">
+                            <a href="receipe-post.html">
+                                <h5>Shakes</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-best-receipe-area mb-30">
+                        <img src="img/bg-img/r4.jpg" alt="">
+                        <div class="receipe-content">
+                            <a href="receipe-post.html">
+                                <h5>Biryani</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-best-receipe-area mb-30">
+                        <img src="img/bg-img/r5.jpg" alt="">
+                        <div class="receipe-content">
+                            <a href="receipe-post.html">
+                                <h5>Homemade Breakfast</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-best-receipe-area mb-30">
+                        <img src="img/bg-img/r6.jpg" alt="">
+                        <div class="receipe-content">
+                            <a href="receipe-post.html">
+                                <h5>South Indian</h5>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Browse Top Categories End -->
+
+    <!-- Scrollover -->
+    <section class="cta-area bg-img bg-overlay" style="background-image: url(img/bg-img/bg4.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <!-- Cta Content -->
+                    <div class="cta-content text-center">
+                        <h2>Desserts</h2>
+                        <p> Explore lip smacking rich desserts which can be made in oven within a few hours.</p>
+                        <a href="#" class="btn button">Discover Receipies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Scrollover End-->
+    
+    <!-- Most Viewed -->
+    <section class="small-receipe-area section-padding-80-0">
+        <div class="container">
+            <div class="section-heading">
+                <h3>Most Viewed</h3>
+            </div>
+            <div class="row">
+         
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-small-receipe-area d-flex">
+            
+                        <div class="receipe-thumb">
+                            <img src="img/bg-img/sr1.jpg" alt="">
+                        </div>
+              
+                        <div class="receipe-content">
+                            <span>&nbsp</span>
+                            <a href="receipe-post.html">
+                                <h5>Peperoni Pizza</h5>
+                            </a>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-small-receipe-area d-flex">
+         
+                        <div class="receipe-thumb">
+                            <img src="img/bg-img/sr2.jpg" alt="">
+                        </div>
+             
+                        <div class="receipe-content">
+                            <span>&nbsp</span>
+                            <a href="receipe-post.html">
+                                <h5>Vada Sambar</h5>
+                            </a>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-small-receipe-area d-flex">
+  
+                        <div class="receipe-thumb">
+                            <img src="img/bg-img/sr3.jpg" alt="">
+                        </div>
+        
+                        <div class="receipe-content">
+                            <span>&nbsp</span>
+                            <a href="receipe-post.html">
+                                <h5>Double-Decker Burger</h5>
+                            </a>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-small-receipe-area d-flex">
+
+                        <div class="receipe-thumb">
+                            <img src="img/bg-img/sr4.jpg" alt="">
+                        </div>
+ 
+                        <div class="receipe-content">
+                            <span>&nbsp</span>
+                            <a href="receipe-post.html">
+                                <h5>Chilly Chicken</h5>
+                            </a>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-small-receipe-area d-flex">
+       
+                        <div class="receipe-thumb">
+                            <img src="img/bg-img/sr5.jpg" alt="">
+                        </div>
+   
+                        <div class="receipe-content">
+                            <span>&nbsp</span>
+                            <a href="receipe-post.html">
+                                <h5>Raspberry Lemonade</h5>
+                            </a>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-small-receipe-area d-flex">
+                  
+                        <div class="receipe-thumb">
+                            <img src="img/bg-img/sr6.jpg" alt="">
+                        </div>
+                     
+                        <div class="receipe-content">
+                            <span>&nbsp</span>
+                            <a href="receipe-post.html">
+                                <h5>Mudcake</h5>
+                            </a>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-small-receipe-area d-flex">
+          
+                        <div class="receipe-thumb">
+                            <img src="img/bg-img/sr7.jpg" alt="">
+                        </div>
+            
+                        <div class="receipe-content">
+                            <span>&nbsp</span>
+                            <a href="receipe-post.html">
+                                <h5>Baked French Fries</h5>
+                            </a>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+         
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-small-receipe-area d-flex">
+          
+                        <div class="receipe-thumb">
+                            <img src="img/bg-img/sr8.jpg" alt="">
+                        </div>
+               
+                        <div class="receipe-content">
+                            <span>&nbsp</span>
+                            <a href="receipe-post.html">
+                                <h5>Tomato Goat Cheese Pasta</h5>
+                            </a>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-small-receipe-area d-flex">
+                     
+                        <div class="receipe-thumb">
+                            <img src="img/bg-img/sr9.jpg" alt="">
+                        </div>
+                      
+                        <div class="receipe-content">
+                            <span>&nbsp</span>
+                            <a href="receipe-post.html">
+                                <h5>Hyderabadi Biryani</h5>
+                            </a>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Most Viewed End-->
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="inner-footer">
+            <img class="logo" src="img/bg-img/HoggingDiaries-resizeimage.jpg">
+            <div class="social-links">
+                <ul>
+                    
+                    <li class="social-items"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-behance"></i></a></li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <ul>
+                    <li class="quick-items"><a href="">Home</a></li>
+                    <li class="quick-items"><a href="">AboutUs</a></li>
+                    <li class="quick-items"><a href="">Categories</a></li>
+                    <li class="quick-items"><a href="">Receipies</a></li>
+                    <li class="quick-items"><a href="">SeasonalFood</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="outer-footer">
+            Copyright ©2021 All rights reserved | Created by Hogging Diaries
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+</html>
