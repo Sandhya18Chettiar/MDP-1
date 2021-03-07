@@ -1,4 +1,4 @@
-/* :: 17.0 Breadcumb Area CSS */
+/* AboutUs - Breadcumb Area CSS */
 .breadcumb-area {
     position: relative;
     z-index: 10;
@@ -20,13 +20,13 @@
         .breadcumb-area .breadcumb-text h2 {
           font-size: 24px; } }
   
-  /* About Us Area */
+  /* AboutUs - About Us Area */
   .sub-heading {
     line-height: 2;
     font-size: 18px;
     text-align: center; }
   
-  /* :: 18.0 Contact Area CSS */
+  /* AboutUs - Contact Area CSS */
   .map-area {
     position: relative;
     z-index: 2; }
@@ -70,7 +70,7 @@
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }
   
-  /* :: 19.0 Elements Area CSS */
+  /* AboutUs - Elements Area CSS */
   .elements-title h2 {
     font-size: 30px;
     margin-bottom: 70px;
@@ -97,7 +97,7 @@
       font-size: 18px;
       margin-bottom: 0; }
   
-  /* Accordians */
+  /* AboutUs - Accordians */
   .single-accordion.panel {
     background-color: #ffffff;
     border: 0 solid transparent;
