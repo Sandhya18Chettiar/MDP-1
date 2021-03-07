@@ -94,7 +94,7 @@ img {
     width: 60px;
     height: 60px;
     border: 2px solid #ccc;
-    border-bottom-color: #1c8314;
+    border-bottom-color: #DB0000 ;
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -130,7 +130,7 @@ img {
     content: ""; }
 
 .vl {
-  border-left: 6px solid green;
+  border-left: 6px solid #DB0000 ;
   height: 100%;
   position: absolute;
 }
@@ -142,7 +142,7 @@ img {
   height: 60px;
   color: #ffffff;
   border: none;
-  border-left: 3px solid #1c8314;
+  border-left: 3px solid #DB0000 ;
   border-radius: 0;
   padding: 0 30px;
   font-size: 16px;
@@ -151,13 +151,13 @@ img {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   text-transform: capitalize;
-  background-color: #40ba37; }
+  background-color: #FE3939 ; }
   .delicious-btn.active, .delicious-btn:hover, .delicious-btn:focus {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
-    background-color: #1c8314;
-    border-color: #40ba37; }
+    background-color: #DB0000;
+    border-color: #FE3939; }
   @media only screen and (max-width: 767px) {
     .delicious-btn {
       height: 40px;
@@ -195,7 +195,7 @@ img {
     .receipe-headline h2 {
       font-size: 24px; } }
 .receipe-headline .receipe-duration {
-  border-left: 3px solid #40ba37;
+  border-left: 3px solid #FE3939;
   padding: 15px; }
   .receipe-headline .receipe-duration h6 {
     font-size: 15px;
@@ -260,7 +260,7 @@ img {
   width: 20px;
   height: 20px; }
 .ingredients .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: #40ba37; }
+  background-color: #FE3939; }
 
 .ingredients{width: 100%;
   height: 1500px;
@@ -301,7 +301,7 @@ img {
       color: #4b4b4b;
       font-weight: 600; }
       .footer-area p a:hover, .footer-area p a:focus {
-        color: #40ba37; }
+        color: #FE3939; }
   @media only screen and (max-width: 767px) {
     .footer-area .footer-logo {
       max-width: 90px; } }
@@ -342,9 +342,9 @@ img {
   z-index: 1; }
   .single-contact-information h6 {
     font-size: 14px;
-    border-bottom: 2px solid #40ba37;
+    border-bottom: 2px solid #FE3939;
     display: inline-block;
-    color: #40ba37; }
+    color: #FE3939; }
 
 .contact-form-area .form-control {
   height: 52px;
@@ -360,7 +360,7 @@ img {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
   .contact-form-area .form-control:focus {
-    border-left: 3px solid #40ba37;
+    border-left: 3px solid #FE3939;
     box-shadow: none; }
 .contact-form-area textarea.form-control {
   height: 200px;
