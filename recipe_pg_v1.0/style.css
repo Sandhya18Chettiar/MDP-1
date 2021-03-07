@@ -262,6 +262,10 @@ img {
 .ingredients .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
   background-color: #40ba37; }
 
+.ingredients{width: 100%;
+  height: 1500px;
+  overflow: scroll;}
+
 /* :: 16.0 Footer Area CSS */
 .footer-area {
   position: relative;
